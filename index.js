@@ -8,7 +8,7 @@ app.get("/", function (request, response) {
   response.send("Hello World!");
 });
 app.get("/api", function (request, response) {
-  response.send("Hello World!");
+  response.send("AWS Deployement ekak kala huththo!");
 });
 
 app.listen(app.get("port"), function () {
